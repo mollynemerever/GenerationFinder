@@ -12,10 +12,10 @@ export default class App extends Component {
     year: ""
   };
 
-  updateYear = e => {
+  updateYear = (e, year) => {
     e.preventDefault();
-    console.log("inside udpate year");
-    //this.setState({ year: year });
+    console.log(year);
+    this.setState({ year: year });
   };
 
   render() {

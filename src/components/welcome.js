@@ -3,7 +3,12 @@ import React, { Component } from "react";
 
 export default class Welcome extends Component {
   state = {
-    selection: ""
+    selection: null
+  };
+
+  changeHandler = e => {
+    e.preventDefault();
+    this.setState({ selection: e.target.value });
   };
   render() {
     return (
@@ -11,7 +16,7 @@ export default class Welcome extends Component {
         <h1>Welcome To Generation Finder </h1>
         Select Birth Year:
         <form>
-          <select>
+          <select onChange={this.changeHandler}>
             <option value={2019}>2019</option>
             <option value={2018}>2018</option>
 
@@ -254,7 +259,7 @@ export default class Welcome extends Component {
           <button
             type="submit"
             value="Submit"
-            onClick={e => this.props.updateYear(e)}
+            onClick={e => this.props.updateYear(e, this.state.selection)}
           >
             {" "}
             Submit
