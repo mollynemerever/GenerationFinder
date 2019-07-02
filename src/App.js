@@ -22,15 +22,15 @@ export default class App extends Component {
   render() {
     let component;
     if (this.state.year <= 1945 && this.state.year !== null) {
-      component = <Traditionalist />;
+      component = <Traditionalist updateYear={this.updateYear} />;
     } else if (this.state.year > 1945 && this.state.year <= 1964) {
-      component = <BabyBoomer />;
+      component = <BabyBoomer updateYear={this.updateYear} />;
     } else if (this.state.year > 1946 && this.state.year <= 1976) {
-      component = <GenX />;
+      component = <GenX updateYear={this.updateYear} />;
     } else if (this.state.year > 1976 && this.state.year <= 1995) {
-      component = <GenY />;
+      component = <GenY updateYear={this.updateYear} />;
     } else if (this.state.year > 1995) {
-      component = <GenZ />;
+      component = <GenZ updateYear={this.updateYear} />;
     } else {
       component = <Welcome updateYear={this.updateYear} />;
     }
