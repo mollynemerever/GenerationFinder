@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import Welcome from "./components/welcome.js";
 import GenX from "./components/genx.js";
@@ -34,6 +33,6 @@ export default class App extends Component {
     } else {
       component = <Welcome updateYear={this.updateYear} />;
     }
-    return <div>{component}</div>;
+    return <div className="App">{component}</div>;
   }
 }

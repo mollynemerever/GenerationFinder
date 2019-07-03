@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-//import "./App.css";
-
+import "../App.css";
 export default class Welcome extends Component {
   state = {
     selection: null
@@ -12,11 +11,12 @@ export default class Welcome extends Component {
   };
   render() {
     return (
-      <div>
-        <h1>Welcome To Generation Finder </h1>
+      <div className="welcome">
+        <h1>Welcome To GenerationFinder </h1>
         Select Birth Year:
         <form>
           <select onChange={this.changeHandler}>
+            <option value="invalid">--</option>
             <option value={2019}>2019</option>
             <option value={2018}>2018</option>
 
