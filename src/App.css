@@ -24,6 +24,22 @@ body,
   background-repeat: no-repeat;
   background-size: 100% 100%;
   height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcomeinfo {
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 25px;
+  width: 50%;
+  height: 33%;
+  padding: 2%;
+}
+
+.userinput {
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .millenial {
