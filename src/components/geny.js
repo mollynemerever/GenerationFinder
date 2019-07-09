@@ -18,7 +18,7 @@ export default class GenY extends Component {
           <br />
           <li>
             {" "}
-            <strong> Upbringing: </strong>Children of divorce, Scheduled
+            <strong> Upbringing: </strong>Children of Divorce, Scheduled
             Childhoods, Sheltered Environment
           </li>
           <br />
@@ -45,7 +45,7 @@ export default class GenY extends Component {
             Timberlake, Prince Harry{" "}
           </li>
           <br />
-          <button onClick={e => this.props.updateYear(e, null)}>back</button>
+          <button onClick={e => this.props.updateYear(e, null)}>Back</button>
         </div>
       </div>
     );

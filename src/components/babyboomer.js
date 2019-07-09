@@ -45,7 +45,7 @@ export default class BabyBoomer extends Component {
             Joel, Oprah{" "}
           </li>
           <br />
-          <button onClick={e => this.props.updateYear(e, null)}>back</button>
+          <button onClick={e => this.props.updateYear(e, null)}>Back</button>
         </div>
       </div>
     );
