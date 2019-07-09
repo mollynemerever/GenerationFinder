@@ -24,7 +24,7 @@ export default class GenX extends Component {
           <br />
           <li>
             {" "}
-            <strong>Atrributes: </strong>Sociable, Highly Communicative,
+            <strong>Attributes: </strong>Sociable, Highly Communicative,
             Optimistic, Global Mindset{" "}
           </li>
           <br />
