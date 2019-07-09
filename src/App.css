@@ -8,6 +8,10 @@ body,
   height: 100%;
 }
 
+.nobullet {
+  list-style-type: none;
+}
+
 .welcome {
   background: url(welcome.jpg);
   background-repeat: no-repeat;

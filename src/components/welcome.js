@@ -22,7 +22,7 @@ export default class Welcome extends Component {
           <div className="userinput">
             Select Birth Year:
             <form>
-              <select onChange={this.changeHandler}>
+              <select aria-label="birth year" onChange={this.changeHandler}>
                 <option value="invalid">--</option>
                 <option value={2019}>2019</option>
                 <option value={2018}>2018</option>
@@ -264,6 +264,7 @@ export default class Welcome extends Component {
                 <option value={1900}>1900</option>
               </select>
               <button
+                aria-label="Submit"
                 type="submit"
                 value="Submit"
                 onClick={e => this.props.updateYear(e, this.state.selection)}

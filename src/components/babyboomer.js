@@ -10,40 +10,37 @@ export default class BabyBoomer extends Component {
           <h4> 1946 - 1964</h4>
           <br />
           <br />
-          <li>
-            {" "}
-            <strong>Core Values:</strong> Anti War, Personal Growth, Spend Now -
-            Worry Later, Equal Rights & Opportunity{" "}
-          </li>{" "}
-          <br />
-          <li>
-            {" "}
-            <strong> Upbringing: </strong>Idolized "American Dream", Post-War
-            Babies, Non-Working Mothers
-          </li>
-          <br />
-          <li>
-            {" "}
-            <strong>Attributes: </strong>Strong Work Ethic, Consumerism,
-            Political Correctness, Responsible{" "}
-          </li>
-          <br />
-          <li>
-            {" "}
-            <strong>Work Ethic: </strong>Loyal, Live to Work, Quality
-          </li>
-          <br />
-          <li>
-            {" "}
-            <strong>Technology: </strong>Adapted, Microwave, Touch-Tone Phones,
-            Pagers
-          </li>
-          <br />
-          <li>
-            {" "}
-            <strong>Celebrities: </strong>Bill Clinton, Meryl Streep, Billy
-            Joel, Oprah{" "}
-          </li>
+          <ul className="nobullet">
+            <li>
+              {" "}
+              <strong>Core Values:</strong> Anti War, Personal Growth, Spend Now
+              - Worry Later, Equal Rights & Opportunity{" "}
+            </li>{" "}
+            <li>
+              {" "}
+              <strong> Upbringing: </strong>Idolized "American Dream", Post-War
+              Babies, Non-Working Mothers
+            </li>
+            <li>
+              {" "}
+              <strong>Attributes: </strong>Strong Work Ethic, Consumerism,
+              Political Correctness, Responsible{" "}
+            </li>
+            <li>
+              {" "}
+              <strong>Work Ethic: </strong>Loyal, Live to Work, Quality
+            </li>
+            <li>
+              {" "}
+              <strong>Technology: </strong>Adapted, Microwave, Touch-Tone
+              Phones, Pagers
+            </li>
+            <li>
+              {" "}
+              <strong>Celebrities: </strong>Bill Clinton, Meryl Streep, Billy
+              Joel, Oprah{" "}
+            </li>
+          </ul>
           <br />
           <button onClick={e => this.props.updateYear(e, null)}>Back</button>
         </div>
