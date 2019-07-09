@@ -82,6 +82,16 @@ body,
   justify-content: center;
 }
 
+.traditionalist {
+  background-image: url(traditionalist.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .facts {
   background-color: rgba(255, 255, 255, 0.75);
   border-radius: 25px;
