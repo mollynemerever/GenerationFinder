@@ -45,7 +45,7 @@ export default class GenX extends Component {
             Will Smith, Amy Poehler{" "}
           </li>
           <br />
-          <button onClick={e => this.props.updateYear(e, null)}>back</button>
+          <button onClick={e => this.props.updateYear(e, null)}>Back</button>
         </div>
       </div>
     );

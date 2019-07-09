@@ -2,17 +2,6 @@
   text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
 html,
 body,
 .App {
@@ -42,9 +31,8 @@ body,
 .welcomeinfo {
   background-color: rgba(255, 255, 255, 0.75);
   border-radius: 25px;
-  width: 50%;
-  height: 33%;
   padding: 2%;
+  max-height: inherit;
 }
 
 .userinput {
@@ -95,9 +83,8 @@ body,
 .facts {
   background-color: rgba(255, 255, 255, 0.75);
   border-radius: 25px;
-  width: 50%;
-  height: 33%;
   padding: 2%;
+  max-height: inherit;
 }
 
 h1,
