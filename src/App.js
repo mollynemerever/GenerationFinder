@@ -12,10 +12,18 @@ export default class App extends Component {
     year: null
   };
 
+  componentDidMount = () => {
+    if (localStorage.getItem("year") !== null) {
+      this.setState({ year: localStorage.getItem("year") });
+    } else {
+      localStorage.clear();
+    }
+  };
+
   updateYear = (e, year) => {
     e.preventDefault();
-    console.log(year);
     this.setState({ year: year });
+    localStorage.setItem("year", year);
   };
 
   render() {
