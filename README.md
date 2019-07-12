@@ -4,6 +4,8 @@
  
 #### Hosted by Netlify: https://condescending-curie-4333a4.netlify.com/
 
+![project gif](https://github.com/mollynemerever/GenerationFinder/blob/master/ezgif.com-optimize.gif)
+
 ### Project Objectives:
 
 We commonly refer to ourselves or others as members of a specific generation. For example - I am a Millennial. But are we actually using the correct generation? I often hear people refer to generations incorrectly as they make broad generalizations about an age group. This website provides insight into the different generations we commonly reference, provide defining dates, and some common characteristics of each generation. The hope is that we can all become more educated on the different generations and use them correctly when referring to a large group of people.
