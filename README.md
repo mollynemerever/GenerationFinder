@@ -1,68 +1,24 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#GenerationFinder
 
-## Available Scripts
+#### Molly Nemerever
 
-In the project directory, you can run:
+####Heroku Link:
 
-### `npm start`
+###Project Objectives:
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+We commonly refer to ourselves or others as members of a specific generation. For example - I am a Millennial. But are we actually using the correct generation? I often hear people refer to generations incorrectly as they make broad generalizations about an age group. This website provides insight into the different generations we commonly reference, provide defining dates, and some common characteristics of each generation. The hope is that we can all become more educated on the different generations and use them correctly when referring to a large group of people.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+One goal of this project was to give myself some time to work on my "Vanilla CSS" skills. My most recent project used React Semantic UI, so I was feeling out of touch with the basic CSS. The other goal was to create a website that was compliant with accessibility standards. I found it was so easy to get carried away with features and graphics on my other projects, that I wanted an opportunity to learn more about accessibility and to check my work.
 
-### `npm test`
+###Technologies Used:
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React
+- CSS
+- HTML
+- JavaScript/JSX
 
-### `npm run build`
+###Resources Used:
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Generational Information: http://www.wmfc.org/uploads/GenerationalDifferencesChart.pdf
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Continuum Explorer Chrome Extension to check accessibility: https://chrome.google.com/webstore/detail/continuum-explorer-commun/bafnegdlhjhdcmakjaankoogodomfbde?hl=en-US
